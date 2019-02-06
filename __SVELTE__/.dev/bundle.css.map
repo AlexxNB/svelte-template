@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "../../src/App.html"
+  ],
+  "sourcesContent": [
+    "<script>\n    let name = 'world';\n    \n</script>\n\n<style type=\"text/scss\">h1 {\n  color: green; }\n\n/*# sourceMappingURL=App.html.css.map */</style>\n\n<h1>Hello {name}!</h1>\n\n<!--\nThis is a Svelte component. Click 'JS output' in\nthe output section to see compiled code.\n\nYou can interact with this component via your\nbrowser's console - try running the following:\n\n    app.name = 'everybody';\n\nYou can also update the name via the props\neditor on this page.\n-->\n"
+  ],
+  "names": [],
+  "mappings": "AAKwB,EAAE,cAAC,CAAC,AAC1B,KAAK,CAAE,KAAK,AAAE,CAAC"
+}
