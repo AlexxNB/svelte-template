@@ -2,6 +2,8 @@
 
 This is a project template for [Svelte](https://svelte.technology) apps. It lives at https://github.com/AlexxNB/svelte-template.
 
+>Вы можете найти русскую версию этой страницы по [этому адресу](https://github.com/AlexxNB/svelte-template/blob/master/README.md)
+
 ## Features
 
 This is enchansed version of the official [Svelte template](https://github.com/sveltejs/template/tree/v3):
