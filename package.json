@@ -10,6 +10,7 @@
     "rollup-plugin-commonjs": "^9.1.8",
     "rollup-plugin-livereload": "^1.0.0",
     "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-scss": "^1.0.0",
     "rollup-plugin-serve": "^1.0.1",
     "rollup-plugin-static-site": "0.0.3",
     "rollup-plugin-svelte": "^4.4.0",

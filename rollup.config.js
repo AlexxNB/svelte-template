@@ -7,6 +7,7 @@ import assetSync from 'rollup-plugin-asset-sync';
 import staticSite from 'rollup-plugin-static-site';
 import serve from 'rollup-plugin-serve';
 import path from 'path'
+import scss from 'rollup-plugin-scss'
 
 const production = !process.env.ROLLUP_WATCH;
 const srcDir = path.join(__dirname,'src');
@@ -36,10 +37,15 @@ export default {
 				css.write(path.join(targetDir,'bundle.css'));
 			}
 		}),	
+		scss({
+			output: path.join(targetDir,'global.css'),
+			outputStyle: production ? 'compressed' : 'expanded'
+		}),
 		staticSite({ 
 			// The window title of the app
 			title: 'Svelte App',
 			css: path.join(targetDir,'bundle.css'),
+			moreStyles:['global.css'],
 			dir: targetDir 
 		}),
 		resolve(),
