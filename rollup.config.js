@@ -5,9 +5,9 @@ import { terser } from 'rollup-plugin-terser';
 import livereload from 'rollup-plugin-livereload';
 import assetSync from 'rollup-plugin-asset-sync';
 import staticSite from 'rollup-plugin-static-site';
+import scss from 'rollup-plugin-scss'
 import serve from 'rollup-plugin-serve';
 import path from 'path'
-import scss from 'rollup-plugin-scss'
 
 const production = !process.env.ROLLUP_WATCH;
 const srcDir = path.join(__dirname,'src');
