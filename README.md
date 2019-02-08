@@ -2,7 +2,7 @@
 
 This is a project template for [Svelte](https://svelte.technology) apps. It lives at https://github.com/AlexxNB/svelte-template.
 
->Вы можете найти русскую версию этой страницы по [этому адресу](https://github.com/AlexxNB/svelte-template/blob/master/README.md)
+>Вы можете найти русскую версию этой страницы по [этому адресу](https://github.com/AlexxNB/svelte-template/blob/master/README-RU.md)
 
 ## Features
 
