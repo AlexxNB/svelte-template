@@ -3,7 +3,7 @@ This is a root Svelte component.
 -->
 
 <script>
-    let name = 'Svelte';
+    let name = 'Svelte 3';
 </script>
 
 <style type="text/scss">

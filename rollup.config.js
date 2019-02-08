@@ -18,7 +18,7 @@ const targetDir =  production ? path.join(__dirname,'__SVELTE__',buildDir) : pat
 export default {
 	input: path.join(srcDir,'main.js'),
 	output: {
-		sourcemap: true,
+		sourcemap: !production,
 		format: 'iife',
 		name: 'myapp',
 		file: path.join(targetDir,'bundle.js') 
