@@ -29,8 +29,6 @@ export default {
             output: path.join(targetDir,'static'),
 		}),
 		svelte({
-			skipIntroByDefault: true,
-			nestedTransitions: true,
 			dev: !production,
 			preprocess: require('./svelte.config').preprocess,
 			css: css => {

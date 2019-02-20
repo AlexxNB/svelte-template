@@ -15,7 +15,7 @@
     "rollup-plugin-static-site": "0.0.3",
     "rollup-plugin-svelte": "^4.4.0",
     "rollup-plugin-terser": "^3.0.0",
-    "svelte": "^3.0.0-beta.5",
+    "svelte": "^3.0.0-beta.7",
     "svelte-preprocess": "^2.4.3"
   },
   "scripts": {
